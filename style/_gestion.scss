@@ -1,0 +1,57 @@
+
+#gestionTitle{
+  margin-top: 15rem;
+  font-family: $country;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#article{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#articleModal{
+    h3{
+       font-family: $country;
+       margin-left: auto;
+       margin-right: auto;
+    }
+
+    .modal-header .close {
+        padding: 1rem 1rem;
+        margin: -1rem -1rem -1rem;
+    }
+}
+.table td, .table th {
+
+    padding: .75rem;
+    border-top: 1px solid #dee2e6;
+    display: table-cell;
+    vertical-align: middle;
+    table-layout: fixed;
+    text-align: center;
+    width: 20%;
+
+    .bouton{
+        margin-left: 0.75rem;
+    }
+
+}
+
+h2{
+    font-family: $country;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-top: 4rem;
+}
+
+#show_up{
+    ul{
+        margin-left: 2rem;
+        li{
+            list-style: none;
+        }
+    }
+}
+

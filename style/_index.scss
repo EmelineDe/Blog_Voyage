@@ -1,0 +1,16 @@
+@import './variable';
+#topDestination{
+    .img{
+        @include  generalImage(20rem,2rem);
+        
+       }
+}
+#topDestination{
+   h3{
+       color:$orange;
+       font-size: 2rem;
+   }
+   span{
+       color: white;
+   }
+}

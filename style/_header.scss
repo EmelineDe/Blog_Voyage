@@ -1,0 +1,82 @@
+@import './variable';
+
+header{
+     nav{
+         font-family: $country;
+
+         .container-fluid{
+             padding-right: 5rem;
+         }
+     }
+     #nav{
+        overflow: hidden;
+     }
+
+     li{
+        list-style-type: none; 
+        margin-right: 3rem;
+     }
+
+     a{
+         color: white;
+         font-size: 1.3rem;
+     }
+     a:hover{
+         color: $orange;
+     }
+
+     
+      
+    #bg{
+        background: url(../images/dino-unsplash.jpg) no-repeat center center;
+        background-size: cover;
+        height:38.18rem;;
+        overflow: hidden;
+        margin-top: 4.8rem;
+
+        @media screen and (min-width: 1900px){
+            margin-top: 7.7rem;
+        }
+    }
+
+
+
+    #bg-text{
+        background: rgba(0, 0, 0, 0.6);
+        width: 60%;
+        margin-top: 7rem; 
+        margin-left: 30rem;
+        padding: 2rem;
+        border-radius: 10px 120px / 100px;
+        color: $orange;
+        font-weight: 900;
+        font-family: $country;
+        p{
+            line-height: 2rem;
+            letter-spacing: 0.2em;
+            color: white;
+            font-size-adjust: initial;
+            font-size: 1.5rem;
+        }
+        h1{
+            font-stretch: initial;
+            font-size:3rem;
+        }
+    }
+
+
+    .nav_profile{
+        .profile{
+            @include  generalImage(0,0);
+            width:18%;
+            border-radius: 8.125rem;
+        }
+    }
+
+    .rounded{
+        border-radius: 50% !important;
+        text-align: center;
+    }
+  
+}
+

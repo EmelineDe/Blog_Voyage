@@ -1,0 +1,15 @@
+
+
+$orange:rgb(223, 139, 43);
+$title:'Cinzel', serif;
+$country:'Oleo Script', cursive;
+
+@mixin generalImage($height,$bottom) {
+    height: $height;
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: $bottom;
+    text-decoration: none;
+    
+}
+

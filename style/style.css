@@ -1,0 +1,423 @@
+*,
+html,
+body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* .message,
+html .message,
+body .message {
+  text-align: center;
+}
+
+header nav {
+  font-family: "Oleo Script", cursive;
+}
+
+header nav .container-fluid {
+  padding-right: 5rem;
+}
+
+header #nav {
+  overflow: hidden;
+}
+
+header li {
+  list-style-type: none;
+  margin-right: 3rem;
+}
+
+header a {
+  color: white;
+  font-size: 1.3rem;
+}
+
+header a:hover {
+  color: #df8b2b;
+}
+
+header #bg {
+  background: url(../images/dino-unsplash.jpg) no-repeat center center;
+  background-size: cover;
+  height: 38.18rem;
+  overflow: hidden;
+  margin-top: 4.8rem;
+}
+
+@media screen and (min-width: 1900px) {
+  header #bg {
+    margin-top: 7.7rem;
+  }
+}
+
+header #bg-text {
+  background: rgba(0, 0, 0, 0.6);
+  width: 60%;
+  margin-top: 7rem;
+  margin-left: 30rem;
+  padding: 2rem;
+  border-radius: 10px 120px / 100px;
+  color: #df8b2b;
+  font-weight: 900;
+  font-family: "Oleo Script", cursive;
+}
+
+header #bg-text p {
+  line-height: 2rem;
+  letter-spacing: 0.2em;
+  color: white;
+  font-size-adjust: initial;
+  font-size: 1.5rem;
+}
+
+header #bg-text h1 {
+  font-stretch: initial;
+  font-size: 3rem;
+}
+
+header .nav_profile .profile {
+  height: 0;
+  background-position: center center;
+  background-size: cover;
+  margin-bottom: 0;
+  text-decoration: none;
+  width: 18%;
+  border-radius: 8.125rem;
+}
+
+header .rounded {
+  border-radius: 50% !important;
+  text-align: center;
+}
+
+#topDestination .img {
+  height: 20rem;
+  background-position: center center;
+  background-size: cover;
+  margin-bottom: 2rem;
+  text-decoration: none;
+}
+
+#topDestination h3 {
+  color: #df8b2b;
+  font-size: 2rem;
+}
+
+#topDestination span {
+  color: white;
+}
+
+#extraitArticle .imgProfile {
+  height: 4rem;
+  background-position: center center;
+  background-size: cover;
+  margin-bottom: 2rem;
+  text-decoration: none;
+  width: 18%;
+  border-radius: 8.125rem;
+}
+
+#extraitArticle .img {
+  display: block;
+  height: 15rem;
+  background-position: center center;
+  background-size: cover;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+
+#extraitArticle .big {
+  color: rgba(0, 0, 0, 0.2);
+  font-family: "Oleo Script", cursive;
+  font-size: 2rem;
+}
+
+#extraitArticle .blog-entry {
+  margin-bottom: 5rem;
+}
+
+#extraitArticle .blog-entry h3 {
+  height: 6rem;
+}
+
+#extraitArticle .blog-entry h3 a {
+  color: #df8b2b;
+  text-decoration: none;
+}
+
+#extraitArticle .author h3 a {
+  color: #df8b2b;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+#extraitArticle .author span {
+  font-size: 1rem;
+  font-weight: lighter;
+}
+
+#extraitArticle .btn.btn-primary {
+  color: white;
+  background-color: #df8b2b;
+  border: none;
+  border-radius: 30px;
+}
+
+#extraitArticle .btn.btn-primary:hover {
+  border: 1px solid #df8b2b;
+  background: transparent;
+  color: #df8b2b;
+}
+
+#gestionTitle {
+  margin-top: 15rem;
+  font-family: "Oleo Script", cursive;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#article {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#articleModal h3 {
+  font-family: "Oleo Script", cursive;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#articleModal .modal-header .close {
+  padding: 1rem 1rem;
+  margin: -1rem -1rem -1rem;
+}
+
+.table td, .table th {
+  padding: .75rem;
+  border-top: 1px solid #dee2e6;
+  display: table-cell;
+  vertical-align: middle;
+  table-layout: fixed;
+  text-align: center;
+  width: 20%;
+}
+
+.table td .bouton, .table th .bouton {
+  margin-left: 0.75rem;
+}
+
+h2 {
+  font-family: "Oleo Script", cursive;
+  font-weight: bold;
+  font-size: 3rem;
+  margin-top: 4rem;
+}
+
+#show_up ul {
+  margin-left: 2rem;
+}
+
+#show_up ul li {
+  list-style: none;
+}
+
+.comment-box {
+  margin-top: 30px !important;
+}
+
+/* CSS Test end */
+.comment-box img {
+  width: 50px;
+  height: 50px;
+}
+
+.comment-box .media-left {
+  padding-right: 10px;
+  width: 65px;
+}
+
+.comment-box .media-body p {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.comment-box .media-body .media p {
+  margin-bottom: 0;
+}
+
+.comment-box .media-heading {
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  padding: 7px 10px;
+  position: relative;
+  margin-bottom: -1px;
+}
+
+.comment-box .media-heading:before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-width: 1px 0 0 1px;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 10px;
+  left: -6px;
+}
+
+#edit {
+  margin-top: 10rem;
+}
+
+.blog {
+  margin-top: 5rem;
+  text-align: center;
+  /* CSS Test end */
+}
+
+.blog .blog-main {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blog .blog-post-contenu {
+  margin-top: 3rem;
+}
+
+.blog .blog-post-date {
+  margin-left: 3rem;
+  float: left;
+}
+
+.blog .blog-post-comment {
+  margin-right: 5rem;
+  float: right;
+  cursor: pointer;
+}
+
+.blog .blog-post-comment:hover {
+  color: #df8b2b;
+}
+
+.blog .blog-post-date, .blog .blog-post-comment {
+  margin-top: 3rem;
+}
+
+.blog .clear {
+  clear: both;
+}
+
+.blog .showComment {
+  margin-top: 2rem;
+  display: none;
+  width: 100%;
+  height: auto;
+}
+
+.blog .addcomment {
+  margin-top: 3rem;
+}
+
+.blog .input-group-addon {
+  float: left;
+}
+
+.blog .comment-box {
+  margin-top: 30px !important;
+}
+
+.blog .comment-box img {
+  width: 50px;
+  height: 50px;
+}
+
+.blog .comment-box .media-left {
+  padding-right: 10px;
+  width: 65px;
+}
+
+.blog .comment-box .media-body p {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.blog .comment-box .media-body .media p {
+  margin-bottom: 0;
+}
+
+.blog .comment-box .media-heading {
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  padding: 7px 10px;
+  position: relative;
+  margin-bottom: -1px;
+}
+
+.blog .comment-box .media-heading:before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-width: 1px 0 0 1px;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 10px;
+  left: -6px;
+}
+
+#footer {
+  text-align: center;
+  background-color: #343A40;
+  color: white;
+}
+
+#footer .social-list {
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 4rem;
+}
+
+#footer h3 {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  color: white;
+  font-family: "Oleo Script", cursive;
+}
+
+#footer #trips-img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#footer .trips {
+  margin-left: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+#copy {
+  background-color: #282c30;
+  color: white;
+  text-align: center;
+}
+
+#copy p {
+  height: 3rem;
+  padding-top: 1rem;
+}
+/*# sourceMappingURL=style.css.map */
