@@ -1,0 +1,19 @@
+FROM php:8.1-apache
+
+# Installe les extensions nécessaires
+RUN docker-php-ext-install pdo pdo_mysql
+
+# Active mod_rewrite
+RUN a2enmod rewrite
+
+# Copie tout le contenu dans Apache
+COPY . /var/www/html/
+
+# Configure Apache pour pointer sur /blog comme dossier racine
+ENV APACHE_DOCUMENT_ROOT /var/www/html/blog
+RUN sed -ri -e 's!/var/www/html!${APACHE_DOCUMENT_ROOT}!g' /etc/apache2/sites-available/*.conf
+
+# Donne les bons droits
+RUN chown -R www-data:www-data /var/www/html
+
+EXPOSE 80
